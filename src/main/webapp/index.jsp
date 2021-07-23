@@ -130,7 +130,9 @@
             {id:11, pId:1, name: "子节点1"},
             {id:12, pId:1, name: "子节点2"},
             {id:2, pId:0, name: "父节点2"},
-            {id:21, pId:2, name: "子节点1"}
+            {id:21, pId:2, name: "子节点1"},
+            {id:22, pId:2, name: "子节点2"},
+            {id:23, pId:2, name: "子节点3"},
         ];
 
         var tree = $.fn.zTree.init($("#menuTree"), setting, zNodes);
